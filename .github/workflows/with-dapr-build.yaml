@@ -1,8 +1,8 @@
 # yaml-language-server: $schema=./with-fqdn-build.yaml
 name: With Dapr Build and Deploy
 on:
-  workflow_run:
-    workflows: ["With FQDN Build and Deploy"]
+  workflow_dispatch:
+    workflows: ["With ​​Dapr Build and Deploy"]
     types:
       - completed
 
